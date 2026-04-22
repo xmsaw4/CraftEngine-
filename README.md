@@ -15,7 +15,7 @@
 ## ⚠️ 重要
 
 - 本包**仅包含配置文件和资源包**，不包含 InfinityExpansion 等附属插件本身。。
-- 本包假设你已安装 **CraftEngine** 并已在resources配置好命名空间。如果你使用的命名空间不是 `slimefun` 否则请手动更改。
+- 本包假设你已安装 **CraftEngine** 并已在resources配置好命名空间。如果你使用的命名空间不是 slimefun 否则请手动更改。
 - 本包中的配置是基于 **Minecraft 1.21.4** 游戏版本 和 **CraftEngine 0.0.67+** 版本的插件编写的 理论上兼容1.20.1至最新游戏版本。
 - 若迁移包配置有问题可在下方联系我 或提issue均可
 
