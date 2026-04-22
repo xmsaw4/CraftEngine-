@@ -1,6 +1,6 @@
 # Slimefun IA → CE 配置迁移包
 
-将 InfinityExpansion等主流 Slimefun 附属的 **2400+ 等物品** 从 ItemsAdder 完整迁移至 CraftEngine 的配置文件与资源包。
+将 InfinityExpansion等主流粘液附属的 **2400+ 等物品** 从 ItemsAdder 完整迁移至 CraftEngine 的配置文件与资源包。
 
 ## ✨ 关于本包
 
