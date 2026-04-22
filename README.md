@@ -21,7 +21,7 @@
 
 ## 📦 下载
 
-你可以在 [Releases](https://github.com/你的用户名/仓库名/releases) 页面下载最新的打包文件。
+你可以在 [Releases](https://github.com/xmsaw4/CraftEngine-slimefun-resource_pack/releases) 页面下载最新的打包文件。
 
 ## 🚀 使用方式
 
