@@ -1,21 +1,22 @@
 # Slimefun IA → CE 配置迁移包
 
-将 InfinityExpansion、无尽贪婪等主流 Slimefun 附属的 **2400+ 物品** 从 ItemsAdder 完整迁移至 CraftEngine 的配置文件与资源包，开箱即用。
+将 InfinityExpansion、无尽贪婪等主流 Slimefun 附属的 **2400+ 等物品** 从 ItemsAdder 完整迁移至 CraftEngine 的配置文件与资源包。
 
 ## ✨ 关于本包
 
-本包提供了已经过完整路径修正和冗余清理的：
-- CraftEngine 物品配置文件（`configuration/`）
-- 分类菜单配置（`categories.yml`）
-- 与之匹配的模型与纹理资源包（`resourcepack/`）
+1. 本材质包的模型文件以及纹理文件完全匹配items.yml里的路径。
+2. 本材质包的物品配置文件的custom-model-data完全匹配slimefun粘液插件配置的item-models
+3. 粘液的所有材质CE物品菜单配置文件路径 CraftEngine\resources\slimefun\configuration\slimefun\categories.yml (可根据需求删除或添加 一般不建议改动)
+4. 部分冗余纹理或未使用的模型文件进行了清理，减少材质包大小的占用。
+5. 修复了少部分材质的路径和模型问题。
 
-**你无需再手动处理路径错误、缺失纹理或模型引用问题，放入对应目录即可直接使用。**
+**基本无需再手动处理路径错误、缺失纹理或模型引用问题，放入对应CE目录即可**
 
 ## ⚠️ 重要
 
-- 本包**仅包含配置文件和资源包**，不包含 InfinityExpansion 等附属插件本身。你仍需要自行安装对应的 Slimefun 附属插件。
-- 本包假设你已安装 **CraftEngine** 并已配置好命名空间。如果你使用的命名空间不是 `slimefun` 或 `infinityexpansion`，请自行批量替换配置文件中的命名空间前缀。
-- 本包中的配置是基于 **Minecraft 1.21.4+** 和 **CraftEngine 0.0.67+** 的新版模型系统编写的。如果你使用的是旧版 CE 或旧版 MC，可能需要进行额外调整。
+- 本包**仅包含配置文件和资源包**，不包含 InfinityExpansion 等附属插件本身。。
+- 本包假设你已安装 **CraftEngine** 并已在resources配置好命名空间。如果你使用的命名空间不是 `slimefun` 否则请手动更改。
+- 本包中的配置是基于 **Minecraft 1.21.4** 游戏版本 和 **CraftEngine 0.0.67+** 版本的插件编写的 理论上兼容1.20.1至最新游戏版本。
 
 ## 📦 下载
 
@@ -23,24 +24,23 @@
 
 ## 🚀 使用方式
 
-1. 将 `configuration/` 文件夹中的内容放入 `plugins/CraftEngine/resources/你的命名空间/configuration/`。
-2. 将 `resourcepack/` 文件夹中的内容放入 `plugins/CraftEngine/resources/你的命名空间/resourcepack/`。
-3. 将 `categories.yml` 放入 `plugins/CraftEngine/resources/你的命名空间/configuration/categories.yml`（或与你现有的分类配置合并）。
-4. 在游戏内执行 `/ce reload all`。
-5. 执行 `/ce resourcepack build --clean` 重新生成资源包。
-6. 执行 `/ce resourcepack send` 推送资源包给玩家。
+1. 将压缩包解压后将slimefun文件夹(包含configuration、resourcepack、pack.yml) 复制到 plugins\CraftEngine\resources 文件夹下即可。
+2. 先执行 `/ce clean-cache all` 清理未使用的custom-model-data的物品，建议输入，避免和粘液材质的custom-model-data值冲突。
+4. 在游戏内执行 `/ce reload all` 即可自动发包给玩家加载材质 若未自动发送材质包请前往CE的WIKI查看修改config配置。
 
 ## 📋 需求
 
-- **Minecraft**：1.21.4 或更高版本（推荐）
-- **CraftEngine**：0.0.67.10 或更高版本
-- **Slimefun**：任意支持 1.21.4 的版本（官方版或汉化版均可）
-- 对应的 **Slimefun 附属插件**（如 InfinityExpansion、无尽贪婪等）
+- **Minecraft**：1.21.4（推荐） 或1.20.x-最新游戏版本
+- **CraftEngine**：0.0.67 或更高版本 插件传送门：https://modrinth.com/plugin/craftengine 插件wiki：https://ce.gtemc.cn/zh-Hans/
+- **Slimefun**：粘液本体 前置库等最新附属插件
+- 对应的 **Slimefun 附属插件**（如 InfinityExpansion 等）需要可前往鬼斩构建站下载粘液插件附属(https://builds.guizhanss.com/)
 
 ## 🙋 作者
 
 **msaw4**
-
+熊猫
+目前在 缘落之梦 服务器担任技术 主流玩法粘液空岛
+欢迎大家前来游玩 Q群：859957646
 ---
 
 *本包中的所有原始物品设计及模型版权归其各自作者所有。本包仅提供配置文件与资源包的迁移整理工作。*
