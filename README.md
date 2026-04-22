@@ -25,8 +25,8 @@
 ## 🚀 使用方式
 
 1. 将压缩包解压后将slimefun文件夹(包含configuration、resourcepack、pack.yml) 复制到 plugins\CraftEngine\resources 文件夹下即可。
-2. 先执行 `/ce clean-cache all` 清理未使用的custom-model-data的物品，建议输入，避免和粘液材质的custom-model-data值冲突。
-4. 在游戏内执行 `/ce reload all` 即可自动发包给玩家加载材质 若未自动发送材质包请前往CE的WIKI查看修改config配置。
+2. 先执行 /ce clean-cache all 清理未使用的custom-model-data的物品，建议输入，避免和粘液材质的custom-model-data值冲突。
+4. 在游戏内执行 /ce reload all 即可自动发包给玩家加载材质 若未自动发送材质包请前往CE的WIKI查看修改config配置。
 
 ## 📋 需求
 
