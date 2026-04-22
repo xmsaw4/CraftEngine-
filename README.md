@@ -1,6 +1,6 @@
 # Slimefun IA → CE 配置迁移包
 
-将 InfinityExpansion、无尽贪婪等主流 Slimefun 附属的 **2400+ 等物品** 从 ItemsAdder 完整迁移至 CraftEngine 的配置文件与资源包。
+将 InfinityExpansion等主流 Slimefun 附属的 **2400+ 等物品** 从 ItemsAdder 完整迁移至 CraftEngine 的配置文件与资源包。
 
 ## ✨ 关于本包
 
@@ -39,8 +39,11 @@
 
 **msaw4**
 熊猫
+
 目前在 缘落之梦 服务器担任技术 主流玩法粘液空岛
+
 欢迎大家前来游玩 Q群：859957646
+
 ---
 
 *本包中的所有原始物品设计及模型版权归其各自作者所有。本包仅提供配置文件与资源包的迁移整理工作。*
